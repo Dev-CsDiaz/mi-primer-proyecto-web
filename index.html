@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi primer proyecto Tailwind</title>
+
+<link href="./dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+
+  <section class="max-w-6xl mx-auto mt-10 px-6">
+
+    <h2 class="text-3xl font-bold text-gray-800 text-center mb-3">
+      Nuestros servicios
+    </h2>
+
+    <p class="text-gray-600 text-center mb-10">
+      Soluciones profesionales para tu hogar.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- TARJETA 1 -->
+      <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 overflow-hidden flex flex-col h-full">
+
+        <img
+          src="./images/aire-acondicionado.jpg"
+          alt="Técnico realizando mantenimiento de aire acondicionado"
+          class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
+        >
+
+        <div class="p-6 flex flex-col flex-1">
+
+          <div class="text-4xl mb-4">❄️</div>
+
+          <h3 class="text-xl font-bold text-gray-800 mb-3">
+            Aire acondicionado
+          </h3>
+
+          <p class="text-gray-600 mb-6">
+            Limpieza, revisión y mantenimiento de equipos
+            de climatización.
+          </p>
+
+          <button class="w-full mt-auto bg-blue-500 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg shadow-md transition duration-300">
+            Solicitar servicio
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- TARJETA 2 -->
+      <div class=" group bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 overflow-hidden flex flex-col h-full">
+
+        <img
+          src="./images/electricidad.jpg"
+          alt="Electricista realizando una instalación"
+          class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
+        >
+
+        <div class="p-6 flex flex-col flex-1">
+          
+          <div class="text-4xl mb-4">💡</div>
+          
+          <h3 class="text-xl font-bold text-gray-800 mb-3">
+            Instalaciones eléctricas
+          </h3>
+          
+          <p class="text-gray-600 mb-6">
+            Instalaciones, reparaciones y revisiones
+            eléctricas para tu hogar.
+          </p>
+          
+          <button class="w-full mt-auto bg-blue-500 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg shadow-md transition duration-300">
+            Solicitar servicio
+          </button>
+          
+        </div>
+
+      </div>
+
+      <!-- TARJETA 3 -->
+      <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 overflow-hidden flex flex-col h-full sm:col-span-2 sm:w-1/2 sm:justify-self-center lg:col-span-1 lg:w-auto">
+
+        <img
+          src="./images/fontaneria.jpg"
+          alt="Fontanero reparando una tubería"
+          class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
+        >
+
+        <div class="p-6 flex flex-col flex-1">
+          
+          <div class="text-4xl mb-4">🔧</div>
+          
+          <h3 class="text-xl font-bold text-gray-800 mb-3">
+            Fontanería
+          </h3>
+          
+          <p class="text-gray-600 mb-6">
+            Reparación de fugas, grifos y problemas
+            de tuberías.
+          </p>
+          
+          <button class="w-full mt-auto bg-blue-500 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg shadow-md transition duration-300">
+            Solicitar servicio
+          </button>
+          
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+
+</html>
